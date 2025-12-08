@@ -1,23 +1,17 @@
-<h1 align="center"> DenseSplat: Densifying Gaussian Splatting SLAM with Neural Radiance Prior </h1>
+<h2 align="center"> DenseSplat: Densifying Gaussian Splatting SLAM with Neural Radiance Prior </h2>
 
-<video src="https://github.com/user-attachments/assets/13b03185-77f1-4e1e-8a20-c46ea8c8d4f7" width="100%" autoplay controls muted />
+[DenseSplat](https://doi.ieeecomputersociety.org/10.1109/TVCG.2025.3617961) is the first SLAM system that effectively combines the advantages of NeRF and 3DGS. It utilizes sparse keyframes and NeRF priors for initializing primitives that densely populate maps and seamlessly fill gaps. It also implements geometry-aware primitive sampling and pruning strategies to manage granularity and enhance rendering efficiency. Moreover, DenseSplat integrates loop closure and bundle adjustment, significantly enhancing frame-to-frame tracking accuracy.  
+We have performed an extensive experimental validation of our system in the large robot sequence of [NewCollege](https://ori-drs.github.io/newer-college-dataset/), evaluating the general performance of the system, in 16 handheld indoor sequences of the [TUM RGB-D benchmark](http://vision.in.tum.de/data/datasets/rgbd-dataset), evaluating the localization accuracy, relocalization and lifelong capabilities, and in 10 car outdoor sequences from the [KITTI dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php), evaluating real-time large scale operation, localization accuracy and efficiency of the pose graph optimization.
+
+<video src="https://github.com/user-attachments/assets/70300e61-c012-4de4-8d6e-a960c84e45c2" width="100%" controls > </video>
+
+# Introduction
+
+**Source code will be released soon.**
 
 # Related Publications
-\[1\] M. Li, S. Liu, T. Deng and H. Wang, **"DenseSplat: Densifying Gaussian Splatting SLAM with Neural Radiance Prior"** in IEEE Transactions on Visualization & Computer Graphics, vol. , no. 01, pp. 1-14, PrePrints 5555, doi: 10.1109/TVCG.2025.3617961.
+\[1\] M. Li, S. Liu, T. Deng and H. Wang, **"DenseSplat: Densifying Gaussian Splatting SLAM with Neural Radiance Prior"** in IEEE Transactions on Visualization & Computer Graphics, vol. , no. 01, pp. 1-14, PrePrints 5555, doi: [10.1109/TVCG.2025.3617961](https://doi.ieeecomputersociety.org/10.1109/TVCG.2025.3617961).
 
- # Introduction
- 
- The paper is available in [10.1109/TVCG.2025.3617961](https://doi.ieeecomputersociety.org/10.1109/TVCG.2025.3617961)
- <!-- - [Video](https://www.youtube.com/watch?v=XVrVLun0ckk&ab_channel=%E9%8D%BE%E8%B5%B7%E9%B3%B4) 
- 
- More details can be found in my master thesis (Main content is written in English).
- - [offical link (require registration to download)](https://etds.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/ccd=ldn10D/record?r1=1&h1=0)
- - [pdf](https://drive.google.com/file/d/1WYjB8JAu0lATqvtImMTieT8PcewzS5CM/view)
- -->
- 
-# 
-**Source code will be released soon.**
- 
 # License
 DenseSplat is released under the [GNU General Public License v3.0](LICENSE).
 
