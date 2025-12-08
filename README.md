@@ -3,6 +3,7 @@
   <h3 align="center">TVCG 2025</h3>
     <p align="center">Mingrui Li*, Shuhong Liu*, Tianchen Deng, Hongyu Wang†</p>
     <p align="center">(*equal contribution)</p>
+    <h3 align="center"><a href="https://doi.ieeecomputersociety.org/10.1109/TVCG.2025.3617961">Paper</a> | <a href="https://github.com/user-attachments/assets/70300e61-c012-4de4-8d6e-a960c84e45c2">Video</a> </h3>
 </p>
 
 ## Abstract
