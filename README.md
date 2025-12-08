@@ -1,8 +1,6 @@
 <h1 align="center"> DenseSplat: Densifying Gaussian Splatting SLAM with Neural Radiance Prior </h1>
 
-<video width="100%">
-  <source src="https://raw.githubusercontent.com/DrLi-Ming/DenseSplat/refs/heads/main/intro.mp4" type="video/mp4">
-</video>
+<video src="https://github.com/user-attachments/assets/13b03185-77f1-4e1e-8a20-c46ea8c8d4f7" width="100%" autoplay controls muted />
 
 # Related Publications
 \[1\] M. Li, S. Liu, T. Deng and H. Wang, **"DenseSplat: Densifying Gaussian Splatting SLAM with Neural Radiance Prior"** in IEEE Transactions on Visualization & Computer Graphics, vol. , no. 01, pp. 1-14, PrePrints 5555, doi: 10.1109/TVCG.2025.3617961.
