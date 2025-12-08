@@ -2,4 +2,8 @@
 
 ---
 
-<p align="center"><a href=""><video src="./intro.mp4" alt="intro video" width="100%"></a></p>
+<p align="center">
+<video width="100" controls>
+  <source src="intro.mp4" type="video/mp4">
+</video>
+</p>
