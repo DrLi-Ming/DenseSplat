@@ -11,6 +11,9 @@
 [DenseSplat](https://doi.ieeecomputersociety.org/10.1109/TVCG.2025.3617961) is the first SLAM system that effectively combines the advantages of NeRF and 3DGS. It utilizes sparse keyframes and NeRF priors for initializing primitives that densely populate maps and seamlessly fill gaps. It also implements geometry-aware primitive sampling and pruning strategies to manage granularity and enhance rendering efficiency. Moreover, DenseSplat integrates loop closure and bundle adjustment, significantly enhancing frame-to-frame tracking accuracy.  
 We have performed an extensive experimental validation of our system in the large robot sequence of [NewCollege](https://ori-drs.github.io/newer-college-dataset/), evaluating the general performance of the system, in 16 handheld indoor sequences of the [TUM RGB-D benchmark](http://vision.in.tum.de/data/datasets/rgbd-dataset), evaluating the localization accuracy, relocalization and lifelong capabilities, and in 10 car outdoor sequences from the [KITTI dataset](http://www.cvlibs.net/datasets/kitti/eval_odometry.php), evaluating real-time large scale operation, localization accuracy and efficiency of the pose graph optimization.
 
+<img width="1953" height="789" alt="image" src="https://github.com/user-attachments/assets/7adbf146-25a5-4a5c-ae4c-f15c7c24ec40" />
+
+
 ## Usage
 
 _**Source code will be released soon.**_
